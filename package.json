@@ -1,0 +1,19 @@
+{
+  "name": "self-assessment",
+  "version": "1.0.0",
+  "description": "Self Assessment for CS5610",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebeccaYHZ/self-assessment.git"
+  },
+  "author": "Yahui Zhang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/RebeccaYHZ/self-assessment/issues"
+  },
+  "homepage": "https://github.com/RebeccaYHZ/self-assessment#readme"
+}

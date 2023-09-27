@@ -1,0 +1,143 @@
+body {
+    background-color: #421983;
+    color: #FFFFFF;
+}
+
+h1 {
+    margin-top: 18vh;
+    font-size: 42px;
+    color: #FFFFFF;
+    padding-bottom: 32px;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #ffe94d;
+}
+
+h3 {
+    text-decoration: none;
+    color: #6c31c9;
+}
+
+a {
+    font-size: 15px;
+    text-decoration: none;
+}
+
+/* header */
+header {
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    padding-top: 12px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #6c31c9;
+}
+
+.navbar {
+    margin-bottom: 1.5vh;
+}
+
+.nav-item {
+    font-size: 1.3em;
+    margin-right: 28px;
+}
+
+.navbar-header a {
+    font-size: 42px;
+    color: #ffe94d;
+    text-decoration: none;
+}
+
+.nav-item a {
+    color: #FFFFFF;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #421983;
+}
+
+/* showcase area */
+.showcase-area {
+    padding-top: 8vh;
+}
+
+.showcase-area .row {
+    height: 100%;
+    margin-top: 20px;
+    padding: 5px;
+}
+
+.showcase-area img {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+
+/* font size area */
+.size-introduction h2 {
+    margin-top: 7rem;
+    margin-bottom: 4rem;
+}
+
+.font-area {
+    margin-top: 80px;
+}
+
+.font-area .card-body {
+    margin: 5px 5px;
+    height: 12rem;
+    background-color: #6c31c9;
+}
+
+.font-area .card-body h5 {
+    font-size: 140%;
+    margin-bottom: 20px;
+}
+
+.font-area .card-body p {
+    line-height: 9px;
+    font-size: 15px;
+    color: #ffe94d;
+}
+
+/* footer */
+footer {
+    position: relative;
+    margin-top: 10vh;
+    margin-bottom: 5vh;
+}
+
+
+/* websites page */
+.cards-group {
+    position: static;
+    padding-top: 50px;
+}
+
+.cards-group .cards {
+    width: 80%;
+    padding-top: 6vh;
+}
+
+.cards .card {
+    height: auto;
+    margin-top: 20px;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+}
+
+.cards .card:hover {
+    transform: scale(1.1);
+    transition: 0.6s;
+}
+
+.cards-group p {
+    color: #000000;
+}
